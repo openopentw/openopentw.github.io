@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #363636;
-  font: 16px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font: 17px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -365,9 +365,6 @@ body {
   left: 0;
   margin-top: -20px;
 }
-#header-title a:hover {
-  color: #a9d18e;
-}
 #logo,
 #subtitle {
   text-decoration: none;
@@ -381,6 +378,9 @@ body {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 2px;
+}
+#logo:hover {
+  color: #a9d18e;
 }
 #subtitle {
   font-size: 16px;
@@ -416,9 +416,9 @@ body {
 .nav-icon {
   font-family: FontAwesome;
   text-align: center;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
+  font-size: 17px;
+  width: 17px;
+  height: 17px;
   padding: 20px 15px;
   position: relative;
   cursor: pointer;
@@ -619,7 +619,7 @@ a.article-title:hover {
   color: #649a40;
 }
 .article-entry a {
-  color: #258fb8;
+  color: #9dc3e6;
   text-decoration: none;
 }
 .article-entry a:hover {
@@ -665,7 +665,7 @@ a.article-title:hover {
   padding-left: 20px;
 }
 .article-entry blockquote footer {
-  font-size: 16px;
+  font-size: 17px;
   margin: 1.6em 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
@@ -711,7 +711,7 @@ a.article-title:hover {
   margin-top: 0;
 }
 .article-excerpt {
-  max-height: 13em;
+  max-height: 14em;
 }
 .article-more-link {
   position: relative;
@@ -728,19 +728,19 @@ a.article-title:hover {
 .article-more-link a {
   margin-top: 6em;
   display: inline-block;
-  padding: 4px 15px;
+  padding: 4px 10px;
   border: 1px solid #808080;
-  border-radius: 15px;
+  border-radius: 10px;
   background: #385723;
   color: #d0d0d0;
   text-shadow: 0 1px #000;
   text-decoration: none;
 }
 .article-more-link a:hover {
-  background: #258fb8;
+  background: #9dc3e6;
   color: #fff;
   text-decoration: none;
-  text-shadow: 0 1px #1e7293;
+  text-shadow: 0 1px #5f9dd6;
 }
 .article-footer {
   font-size: 0.85em;
@@ -1003,7 +1003,7 @@ a.article-title:hover {
   margin: 50px 0;
 }
 #comments a {
-  color: #258fb8;
+  color: #9dc3e6;
 }
 .archives-wrap {
   margin: 50px 0;
@@ -1059,7 +1059,7 @@ a.article-title:hover {
   line-height: 1.6em;
 }
 .archive-article-title:hover {
-  color: #258fb8;
+  color: #9dc3e6;
 }
 .archive-article-footer {
   margin-top: 1em;
@@ -1133,7 +1133,7 @@ a.article-title:hover {
   color: #a0a0a0;
 }
 #footer a {
-  color: #258fb8;
+  color: #9dc3e6;
   text-decoration: none;
 }
 #footer a:hover {
@@ -1153,7 +1153,7 @@ a.article-title:hover {
   border-width: 1px 0;
   overflow: auto;
   color: #ccc;
-  line-height: 25.6px;
+  line-height: 27.200000000000003px;
   font-size: 0.95em;
 }
 .article-entry .highlight .gutter pre,
@@ -1215,7 +1215,7 @@ a.article-title:hover {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 25.6px;
+  height: 27.200000000000003px;
 }
 .article-entry .highlight .line.marked {
   background: #515151;
@@ -1260,7 +1260,7 @@ a.article-title:hover {
   margin-left: 20px;
 }
 .article-entry .gist .gist-file .gist-meta a {
-  color: #258fb8;
+  color: #9dc3e6;
   font-weight: normal;
 }
 .article-entry .gist .gist-file .gist-meta a:hover {
@@ -1365,7 +1365,7 @@ pre .javascript .function {
   border-radius: 3px;
 }
 .widget a {
-  color: #258fb8;
+  color: #9dc3e6;
   text-decoration: none;
 }
 .widget a:hover {
